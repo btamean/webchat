@@ -14,6 +14,7 @@ const io = new Server(server, {
   }
 });
 
+//test
 // 클라이언트 연결 이벤트를 처리
 io.on('connection', (socket) => {
   console.log('A user connected:', socket.id);
